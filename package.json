@@ -1,0 +1,37 @@
+{
+    "name": "vuenavbar",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "webpack --watch --watch-poll --config webpack.config.js --mode production js/mine.js --output js/build.js --display-error-details"
+    },
+    "dependencies": {
+        "file-loader": "^6.0.0",
+        "firebase": "^10.4.0",
+        "vue": "^2.5.16",
+        "vue-axios": "^3.4.1",
+        "vue-router": "^2.7.0",
+        "vue-toast-notification": "^0.6.3",
+        "vuefire": "^3.0.0-alpha.9"
+    },
+    "devDependencies": {
+        "axios": "^0.19.2",
+        "buble": "*",
+        "buble-loader": "*",
+        "css-loader": "*",
+        "html-webpack-plugin": "*",
+        "jquery": "^3.5.1",
+        "node-sass": "^4.14.1",
+        "sass-loader": "^9.0.2",
+        "vue-loader": "^15.9.3",
+        "vue-loader-plugin": "^1.3.0",
+        "vue-template-compiler": "^2.6.11",
+        "webpack": "^4.43.0",
+        "webpack-cli": "^3.3.12"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}
